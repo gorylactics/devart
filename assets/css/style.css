@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#25282A;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    
+    background-color: darkblue;
+    margin-top: 72.3vh; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: stretch;
+    position: relative;
+}
+
+/* .navbar__logo{
+   
+} */
+
+.logo{
+    background-color: purple;
+    width: 30vw;
+    
+    
+}
+
+h1{
+    color:#F8D948;
+    text-align: center;
+}
+
