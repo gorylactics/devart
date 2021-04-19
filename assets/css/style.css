@@ -20,6 +20,7 @@ body{
 	align-items: center;
 	align-content: center;
     width: 100vw;
+    
 }
 
 .parallax__fondo--imagen1{
@@ -41,9 +42,15 @@ body{
     border: solid 3px red;
     margin-top: 50px;
 }
+
 .navbar{
-   
     background-color: rgb(243, 132, 28);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+   
+}
+.navbar__elementosr{
     /* margin-top: 72.3vh;  */
     display: flex;
     flex-direction: row;
@@ -53,6 +60,7 @@ body{
     align-content: stretch;
     
 }
+
 
 /* .navbar__logo{
    
