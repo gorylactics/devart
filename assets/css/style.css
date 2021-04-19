@@ -12,17 +12,46 @@ body{
     padding: 0;
 }
 
+.parallax__fondo{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    width: 100vw;
+}
+
+.parallax__fondo--imagen1{
+    z-index: 1;
+    position: absolute;
+    border: solid 3px white;
+}
+
+.parallax__fondo--imagen2{
+    z-index: 2;
+    border: solid 3px blue;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.parallax__fondo--imagen3{
+    z-index: 3;
+    position: relative;
+    border: solid 3px red;
+    margin-top: 50px;
+}
 .navbar{
-    
-    background-color: darkblue;
-    margin-top: 72.3vh; 
+   
+    background-color: rgb(243, 132, 28);
+    /* margin-top: 72.3vh;  */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-end;
     align-content: stretch;
-    position: relative;
+    
 }
 
 /* .navbar__logo{
