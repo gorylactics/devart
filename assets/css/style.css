@@ -1,4 +1,12 @@
 /* Reestructuracion */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 1.7px dotted greenyellow; 
+}
+* body{
+    box-sizing: border-box;
+}
 /* *{
     margin: 0;
     padding: 0;
