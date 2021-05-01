@@ -1,4 +1,5 @@
-*{
+/* Reestructuracion */
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,12 +7,10 @@
 body{
     background-color:#25282A;
 }
-
 .row{
     margin: 0;
     padding: 0;
 }
-
 .parallax__fondo{
     display: flex;
 	flex-direction: row;
@@ -20,61 +19,43 @@ body{
 	align-items: center;
 	align-content: center;
     width: 100vw;
-    
 }
-
 .parallax__fondo--imagen1{
     z-index: 1;
     position: absolute;
     border: solid 3px white;
 }
-
 .parallax__fondo--imagen2{
     z-index: 2;
     border: solid 3px blue;
     position: absolute;
     margin-top: 50px;
 }
-
 .parallax__fondo--imagen3{
     z-index: 3;
     position: relative;
     border: solid 3px red;
     margin-top: 50px;
 }
-
 .navbar{
     background-color: rgb(243, 132, 28);
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
-   
 }
 .navbar__elementosr{
-    /* margin-top: 72.3vh;  */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-end;
     align-content: stretch;
-    
 }
-
-
-/* .navbar__logo{
-   
-} */
-
 .logo{
-    /* background-color: purple; */
     width: 30vw;
-    
-    
 }
-
 h1{
     color:#F8D948;
     text-align: center;
-}
+} */
 
