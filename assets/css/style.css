@@ -6,7 +6,28 @@
 }
 * body{
     box-sizing: border-box;
+    background-color: #1B365D;
+    /* 
+    PANTONE 534 C
+    VALORES DE COLOR:
+    RGB 27 54 93
+    HEX/HTML 1B365D
+    CMYK 100 71 0 51 * Opcion 1
+    
+    PANTONE 4154 C
+    VALORES DE COLOR:
+    RGB 14 65 116
+    HEX/HTML 0E4174
+    CMYK 100 67 0 33 opcion 2
+
+    PANTONE 2955 C
+    COLOR VALUES:
+    RGB 0 56 101
+    HEX/HTML 003865
+    CMYK 100 52 0 58 opci0n 3
+    */
 }
+
 /* *{
     margin: 0;
     padding: 0;
