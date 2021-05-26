@@ -1,8 +1,8 @@
 {
   "name": "devart",
   "version": "1.0.0",
-  "description": "definitive development", 
-  "main": "index.js", 
+  "description": "Nueva version de package.json",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass --watch assets/scss -o assets/css"
